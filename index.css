@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+nav img {
+  width: 10%;
+}
+
+nav img:hover {
+  width: 12%;
+}
+
+nav ul li a:hover {
+  background-color: rgb(52, 146, 228);
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-flex;
+  margin: 5px;
+}
+nav ul li a {
+  padding: 10px;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+/* main design */
+main {
+  margin: 15% 5% 15%;
+}
+
+/* ABOUT ME PAGE */
+main .about-me {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.6;
+}
+main h1 {
+  font-weight: lighter;
+  font-size: 3rem;
+}
+main .right-main {
+  width: 45%;
+}
+main .left-main {
+  width: 35%;}
+
+  main .right-main p{margin-bottom: 5%;}
+
+ main .right-main a{color: black;
+  background-color: aliceblue;
+  padding: 10px 40px;
+border-radius: 10px;
+color: blue;}
+
+main .right-main a:hover {color: black;
+background-color: rgb(99, 161, 215);}
+
+main .left-main img {position: absolute;
+right: 5%;
+height: 70%;
+bottom: 10%;
+border-radius: 100px;}
+
+footer{
+  background-color: aliceblue;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
